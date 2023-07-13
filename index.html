@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
     <title>TODO APP</title>
 </head>
-<style>
-    .card_cont{
-        margin-top: 10px;
-        height: 500px;
-    }
-    .card{
-        background-color: rgb(255, 249, 236);
-        margin: 5px;
-    }
-    
-</style>
+
 <body>
     
 <div id="cont" class="container card_cont">
  
     </div> 
 <br/>
-    <form onsubmit="return validateForm()">
+    <form class="" onsubmit="return validateForm()">
         <div class="container">
         <div class="col-md-3"></div>
-        <div class="input-group col-md-6 mb-3">
+        <div class="input-group  col-md-6 mb-3">
             <input required id="input" type="text" class="form-control" placeholder="Write Task..." aria-label="Recipient's username" aria-describedby="button-addon2">
             <input class="btn btn-outline-primary" type="submit" id="button-addon2" />
             
